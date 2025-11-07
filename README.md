@@ -1,16 +1,41 @@
-# React + Vite
+# 🎯 Trivia Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive data visualization tool built with **React**, **Vite**, and **Recharts**, using live data from the [Open Trivia DB API](https://opentdb.com/).  
+It visualizes trivia questions by **category** and **difficulty**, and allows users to filter, explore, and analyze patterns across topics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo  
+👉 **[View the App on GitHub Pages](https://moksh2212.github.io/Trivia-Visualizer/)**  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- 📊 **Category Distribution** – Visualizes the number of questions per category  
+- 📈 **Difficulty Distribution** – Shows how questions are spread across Easy, Medium, and Hard  
+- 🔍 **Category Filter** – Filter questions by category or view all  
+- 🎨 **Consistent Color Mapping** – Same color scheme across charts for clarity  
+- ⚡ **Dynamic Data Fetching** – Uses 50+ live questions from the Open Trivia DB API  
+- 💅 **Modern UI** – Built with TailwindCSS for a clean and responsive interface  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+
+| Tool | Purpose |
+|------|----------|
+| **React (Vite)** | Frontend framework |
+| **Recharts** | Data visualization |
+| **Tailwind CSS** | Styling |
+| **Open Trivia DB API** | Data source |
+| **gh-pages** | Deployment on GitHub Pages |
+
+---
+
+## 🏗️ Project Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/moksh2212/Trivia-Visualizer.git
+cd Trivia-Visualizer
